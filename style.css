@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDFFAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+}
+
+.container{
+    background-color: white;
+    min-width: 45vh;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+button, select, input{
+    border: none;
+    width: 100%;
+}
+
+.form{
+    margin: 2rem 0 1rem 0;
+}
+
+.amount{
+    margin-top: 1.5rem;
+}
+
+.amount input{
+    height: 2rem;
+    padding-left: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    margin-bottom: 1rem;
+}
+
+img{
+   width: 2rem;
+}
+
+.dropdown i{
+    margin-top: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+}
+
+.mssg{
+    margin: 2rem 0 2rem 0;
+}
+
+button{
+    height: 2rem;
+    background-color: #af4d98;
+    color: white;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
